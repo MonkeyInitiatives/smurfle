@@ -3,6 +3,7 @@ import { render, screen } from '@testing-library/react'
 import App from './App'
 import { GAME_TITLE } from './constants/strings'
 
+
 beforeEach(() => {
   Object.defineProperty(window, 'matchMedia', {
     writable: true,
